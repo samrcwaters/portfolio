@@ -1,0 +1,147 @@
+body {
+	font-family: 'Raleway' !important;
+	color:#161614;
+}
+
+html, body {
+	height: 100%;
+}
+
+.body-content {
+	background: white;
+}
+
+.body-content .columns {
+	margin: 0 10px 10px;
+}
+
+.card {
+	min-height: 100%;
+}
+
+/* #about, #navbar, #projects, #experience {
+	display: none;
+} */
+
+#hero-body {
+	padding-bottom: 16rem;
+	padding-top: 7rem;
+}
+
+.navbar, .hero.is-info, .hero-body, .footer, html, .footer .columns, .footer .column {
+	background-color: #fdf0c2;
+}
+
+.hero.is-info, .hero-body {
+	color: #161614;
+}
+
+.is-dark {
+	background-color: #161614;
+}
+
+.footer, .push {
+	height: 9rem;
+}
+
+.column {
+	margin: 0 4px 0;
+}
+
+
+
+.wrapper {
+	min-height: 100%;
+	margin-bottom: -9rem;
+}
+
+.footer-icon {
+	border-radius: 50%;
+	padding: 0;
+	max-width: 36px;
+	max-height: 36px;
+}
+
+.footer-icon-img {
+	max-height: 34px;
+	max-width: 34px;
+}
+
+#github-img {
+	max-width: 35px;
+	max-height: 35px;
+	padding: 0;
+}
+
+hr {
+	background-color: black;
+}
+
+#logo {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	max-height: 100px;
+}
+
+.logo-wrapper {
+	max-height: 140px;
+}
+
+section {
+	color: #161614;
+}
+
+.subtitle {
+	margin: 0 !important;
+}
+
+.title, .subtitle {
+	color: #161614 !important;
+}
+
+a:hover {
+	border-bottom: 1px solid black;
+}
+
+.underline {
+	border-bottom: 3px solid black;
+}
+
+body {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}

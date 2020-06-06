@@ -1,0 +1,40 @@
+<section id="projects" class="body-content" [@simpleFadeAnimation]="'in'">
+  <div class="container">
+    <div class="columns underline is-italic">
+      <div class="column is-three-quarters">
+        <h3 class="subtitle">Projects</h3>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <app-projectcard
+          [imgSrc]="'assets/images/ca.png'"
+          [title]="'Challonger Approaching'"
+          [subtitle]="'Angular 8 / Node.js / Challonge API'"
+          description='Data aggregation web application built to help track long-term tournament results/rankings (primarily intended for Super Smash Bros. Melee). Try it out over <a href="https://challonger-approaching.herokuapp.com/">here</a>!'
+        >
+        </app-projectcard>
+      </div>
+      <div class="column">
+        <app-projectcard
+          [imgSrc]="'assets/images/warcraft2.png'"
+          [title]="'Warcraft II Website'"
+          [subtitle]="'Angular 7 / Node.js / MongoDB'"
+          [description]="'Quarter-long, team-based project for ECS160: Software Engineering. Features implemented: 
+            JWT-based user authentication, real-time messaging system using Socket.io and RxJS, map rendering, file uploads/
+            downloads,
+            friends system, and email verification.'"
+        ></app-projectcard>
+      </div>
+      <div class="column">
+        <app-projectcard
+          [imgSrc]="'assets/images/newSudoku.png'"
+          [title]="'Sudoku Puzzle Generator/Solver'"
+          [subtitle]="'HTML / CSS / JavaScript'"
+          description='Random sudoku puzzle generator and solver utilizing a simple
+              recursive algorithm. Check it out <a href="https://samrcwaters.github.io/sudoku/">here</a>!'
+        ></app-projectcard>
+      </div>
+    </div>
+  </div>
+</section>
