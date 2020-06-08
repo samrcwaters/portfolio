@@ -11,6 +11,10 @@ html, body {
 	background: white;
 }
 
+#about .body-content {
+	background: none;
+}
+
 .body-content .columns {
 	margin: 0 10px 10px;
 }
@@ -53,6 +57,7 @@ html, body {
 .wrapper {
 	min-height: 100%;
 	margin-bottom: -9rem;
+	background-color: #fdf0c2;
 }
 
 .footer-icon {
