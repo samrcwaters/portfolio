@@ -1,0 +1,10 @@
+#about {
+  max-width: 60%;
+  border-top-right-radius: 83px;
+  border-bottom-right-radius: 83px;
+}
+
+#about-text {
+  border-left: 12px solid black; 
+  padding: 10px;
+}

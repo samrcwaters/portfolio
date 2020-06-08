@@ -1,0 +1,12 @@
+.navbar-brand {
+  max-width: 15%;
+  text-align: right;
+  font-size: 300%;
+  padding-left: .5em;
+  border-right: 12px solid red;
+}
+
+a:hover {
+  border-bottom: 12px solid red;
+  margin-bottom: -12px;
+}

@@ -1,5 +1,5 @@
 body {
-	font-family: 'Raleway' !important;
+	font-family: 'Nunito', sans-serif !important;
 	color:#161614;
 }
 
@@ -32,12 +32,12 @@ html, body {
 	padding-top: 7rem;
 }
 
-.navbar, .hero.is-info, .hero-body, .footer, html, .footer .columns, .footer .column {
-	background-color: #fdf0c2;
-}
-
 .hero.is-info, .hero-body {
 	color: #161614;
+}
+
+.hero.is-info, .hero-body, .footer, #footer-content .footer-icon, .wrapper {
+	background-color: #8B9EFF;
 }
 
 .is-dark {
@@ -57,7 +57,6 @@ html, body {
 .wrapper {
 	min-height: 100%;
 	margin-bottom: -9rem;
-	background-color: #fdf0c2;
 }
 
 .footer-icon {
