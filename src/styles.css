@@ -45,7 +45,7 @@ html, body {
 }
 
 .footer, .push {
-	height: 9rem;
+	height: 10rem;
 }
 
 .column {
@@ -81,12 +81,6 @@ hr {
 	background-color: black;
 }
 
-#logo {
-	margin-top: 15px;
-	margin-bottom: 5px;
-	max-height: 100px;
-}
-
 .logo-wrapper {
 	max-height: 140px;
 }
@@ -103,9 +97,9 @@ section {
 	color: #161614 !important;
 }
 
-a:hover {
+/* a:hover {
 	border-bottom: 1px solid black;
-}
+} */
 
 .underline {
 	border-bottom: 3px solid black;
