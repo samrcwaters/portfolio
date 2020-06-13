@@ -1,18 +1,17 @@
-import { Component, OnInit } from "@angular/core";
+import { Component } from "@angular/core";
 
 @Component({
   selector: "app-navbar",
   templateUrl: "./navbar.component.html",
   styleUrls: ["./navbar.component.css"],
 })
-export class NavbarComponent implements OnInit {
+export class NavbarComponent {
   activeTab = "about";
+  expandedNav = false;
 
   constructor() {
     this.setActiveTab(this.getActiveTab());
   }
-
-  ngOnInit() {}
 
   getActiveTab() {
     return new URL(window.location.href).hash.substring(2);
@@ -20,5 +19,9 @@ export class NavbarComponent implements OnInit {
 
   setActiveTab(activeTab: string) {
     this.activeTab = activeTab;
+  }
+
+  toggleNav() {
+    this.expandedNav = !this.expandedNav;
   }
 }

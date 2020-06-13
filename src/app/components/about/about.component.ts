@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 import { trigger,state,style,transition,animate,keyframes } from '@angular/animations';
 
 @Component({
@@ -18,6 +18,7 @@ import { trigger,state,style,transition,animate,keyframes } from '@angular/anima
   ]
 })
 export class AboutComponent implements OnInit {
+  @Output() navLinkClicked = new EventEmitter<string>();
 
   constructor() { }
 

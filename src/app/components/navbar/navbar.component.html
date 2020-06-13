@@ -9,13 +9,15 @@
       aria-label="menu"
       aria-expanded="false"
       data-target="portfolioNav"
+      (click)="toggleNav()"
+      [ngClass]="{'is-active': epandedNav}"
     >
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
     </a>
   </div>
-  <div class="navbar-menu" id="portfolioNav">
+  <div class="navbar-menu" id="portfolioNav" [ngClass]="{'is-active': expandedNav}">
     <div class="navbar-end">
       <a
         class="navbar-item"
