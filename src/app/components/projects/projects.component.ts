@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger,state,style,transition,animate,keyframes } from '@angular/animations';
+import projects from '../../../assets/data/projects.json';
 
 @Component({
   selector: 'app-projects',
@@ -18,8 +19,12 @@ import { trigger,state,style,transition,animate,keyframes } from '@angular/anima
   ]
 })
 export class ProjectsComponent implements OnInit {
+  projects: Object[];
 
-  constructor() { }
+  constructor() {
+    this.projects = projects.projects;
+    console.log(this.projects);
+  }
 
   ngOnInit() {
   }
