@@ -3,7 +3,13 @@
     <a class="navbar-item" id="logo">
       <h1>sam waters</h1>
     </a>
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="portfolioNav">
+    <a
+      role="button"
+      class="navbar-burger burger"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="portfolioNav"
+    >
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -11,9 +17,27 @@
   </div>
   <div class="navbar-menu" id="portfolioNav">
     <div class="navbar-end">
-      <a class="navbar-item" routerLink="../">about</a>
-      <a class="navbar-item" routerLink="../projects">projects</a>
-      <a class="navbar-item" routerLink="../experience">experience</a>
+      <a
+        class="navbar-item"
+        routerLink="../"
+        [ngClass]="{ 'red-bt-bdr': activeTab === 'about' }"
+        (click)="setActiveTab($event.target.innerText)"
+        >about</a
+      >
+      <a
+        class="navbar-item"
+        routerLink="../experience"
+        [ngClass]="{ 'red-bt-bdr': activeTab === 'experience' }"
+        (click)="setActiveTab($event.target.innerText)"
+        >experience</a
+      >
+      <a
+        class="navbar-item"
+        routerLink="../projects"
+        [ngClass]="{ 'red-bt-bdr': activeTab === 'projects' }"
+        (click)="setActiveTab($event.target.innerText)"
+        >projects</a
+      >
     </div>
   </div>
 </nav>

@@ -1,10 +1,4 @@
-#about {
-  max-width: 30%;
-  border-top-right-radius: 83px;
-  border-bottom-right-radius: 83px;
-}
-
 #about-text {
-  border-left: 12px solid black; 
-  padding: 10px;
+  border-bottom: 12px solid black; 
+  margin: 10px;
 }

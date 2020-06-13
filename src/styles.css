@@ -7,10 +7,6 @@ html, body {
 	height: 100%;
 }
 
-.body-content {
-	background: white;
-}
-
 #about .body-content {
 	background: none;
 }
@@ -21,15 +17,6 @@ html, body {
 
 .card {
 	min-height: 100%;
-}
-
-/* #about, #navbar, #projects, #experience {
-	display: none;
-} */
-
-#hero-body {
-	padding-bottom: 16rem;
-	padding-top: 7rem;
 }
 
 .hero.is-info, .hero-body {
@@ -52,8 +39,6 @@ html, body {
 	margin: 0 4px 0;
 }
 
-
-
 .wrapper {
 	min-height: 100%;
 	margin-bottom: -9rem;
@@ -69,6 +54,10 @@ html, body {
 .footer-icon-img {
 	max-height: 34px;
 	max-width: 34px;
+}
+
+.tp-pad {
+	padding-top: 12px;
 }
 
 #github-img {

@@ -1,5 +1,5 @@
 #logo {
-  max-width: 60%;
+  max-width: 70%;
   text-align: right;
   font-size: 300%;
   border-right: 12px solid red;
@@ -19,11 +19,16 @@
 
 @media only screen and (min-width: 1024px) {
   #logo {
-    max-width: 60%;
+    max-width: 70%;
   }
 }
 
 .navbar-end a:hover {
+  border-bottom: 12px solid red;
+  margin-bottom: -12px;
+}
+
+.red-bt-bdr {
   border-bottom: 12px solid red;
   margin-bottom: -12px;
 }

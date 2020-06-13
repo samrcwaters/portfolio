@@ -1,4 +1,3 @@
 .card {
-  box-shadow: none;
-  border-left: 12px solid black;
+  box-shadow: -9px 9px;
 }

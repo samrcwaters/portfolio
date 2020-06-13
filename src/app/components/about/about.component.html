@@ -1,14 +1,26 @@
 <section id="about" class="body-content" [@simpleFadeAnimation]="'in'">
   <div class="container">
-    <div class="column is-one-fifth">
-      <figure class="image">
-        <img class="is-rounded" src="assets/images/profile.jpg">
-      </figure>
-    </div>
-    <div class="columns" style="padding-right:10px">
-      <div class="column is-two-fifths"></div>
-      <div class="column is-two-fifths">
-        <p id="about-text">I'm Sam — a Sacramento-based software engineer with a passion for web development, digital art, and game development. Check out some of my past and current projects <a routerLink="../projects">here</a>.
+    <div class="columns" style="padding-right: 10px;">
+      <div class="column is-one-fifth">
+        <figure class="image">
+          <img class="is-rounded" src="assets/images/profile.jpg" />
+        </figure>
+      </div>
+      <div class="column" id="about-text">
+        <p class="title">I'm Sam — a Sacramento-based software engineer.</p>
+        <p>
+          I currently work at EcoInteractive, where I build software to help
+          transporation agencies better manage our public infrastructure. In
+          2019, I graduated from University of California, Davis with a BS in
+          Computer Science; While there, I led an on-campus organization built
+          around fostering a community of undergraduate web developers. My
+          primary focus is in web development, but I also have a passion for
+          digital art and game developement.
+        </p>
+        <p>
+          Some of my past and current projects can be found over 
+          <a routerLink="../projects" class="underline">here</a>, as well as my
+          GitHub and LinkedIn down below.
         </p>
       </div>
     </div>
