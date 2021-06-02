@@ -136,5 +136,8 @@
       }
     }
   },
-  "defaultProject": "srcw-portfolio"
+  "defaultProject": "srcw-portfolio",
+  "cli": {
+    "analytics": "51d6bc2b-74ce-40b0-a38d-da0073b15c02"
+  }
 }

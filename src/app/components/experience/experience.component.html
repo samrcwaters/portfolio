@@ -2,9 +2,21 @@
   <div class="columns">
     <div class="column">
       <app-projectcard
+        [imgSrc]="'assets/images/sb.png'"
+        [title]="'SemanticBits'"
+        subtitle="Software Engineer<br>November 2020 - Present<br>Remote"
+        description='<ul>
+            <li>Design and implement production-scale ETL solutions for healthcare data using Python, Airflow, Docker, PostgreSQL, and AWS DMS</li>           
+            <li>Maintain and contribute new features to several Node.js microservices and a React.js frontend</li>
+          </ul>'
+        >
+      </app-projectcard>
+    </div>
+    <div class="column">      
+      <app-projectcard
         [imgSrc]="'assets/images/ecointeractive.png'"
         [title]="'EcoInteractive'"
-        subtitle="Software Developer<br>July 2019 - Present<br>Davis, CA"
+        subtitle="Software Developer<br>July 2019 - November 2020<br>Davis, CA"
         description='<ul>
             <li>Completed enhancements and bugfixes on a multi-tenant web application used by government agencies in management of infrastructure and transportation projects.</li>           
             <li>Frequently led discussions and carried out code-first implementation of data models</li>
@@ -53,14 +65,8 @@
         [title]="'Renly'"
         subtitle="Web Development Intern<br>June 2017 - Sep. 2017<br>Carson, CA"
         description='<ul>
-              <li>Assisted in enhancing and maintaining PowerSchool’s accounting software, BusinessPlus. Worked on a team of 5 in an Agile/Scrum development cycle.</li>
-              <li>Project and Tasks:
-                <ul>
-                  <li>UI redesign (SASS/LESS/Kendo Framework)</li>
-                  <li>General functionality improvements (Angular 4, RxJS, C#, C++)</li>
-                  <li>Front-end unit testing (Java, Selenide Testing Framework)</li>
-                </ul>
-              </li>
+              <li>Collaborated on a team of 4 to build search pages, web scrapers, and browser-based image galleries using .NET, JavaScript, HTML, CSS, and SQL.</li>
+              <li>Additional tasks: query optimizations, Google Maps API integration, and manual QA testing.</li>
             </ul>'
       ></app-projectcard>
     </div>

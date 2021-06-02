@@ -1,38 +1,40 @@
-{"projects": [
-  {
-    "imgSrc": "assets/images/ca.png",
-    "title": "Challonger Approaching",
-    "subtitle": "Angular 8 / Node.js / Challonge API",
-    "description": "Data aggregation web application built to help track long-term tournament results/rankings (primarily intended for Super Smash Bros. Melee). Try it out over <a href='https://challonger-approaching.herokuapp.com/'>here</a>!"
-  },
-  {
-    "imgSrc": "assets/images/PosterLowRes.png",
-    "title": "Senior Design Project: Speech Prep Pal",
-    "subtitle": "Android SDK / Google Cloud Platform APIs",
-    "description": "Worked on a team of 4 (plus 2 Google mentors) to develop an Android application aimed at honing a user’s speaking patterns through machine learning technology. Features include: video recording and playback, script accuracy detection through GCP speech-to-text API and Google’s Diff-Match-Patch API."
-  },
-  {
-    "imgSrc": "assets/images/gamb.png",
-    "title": "Untitled Game",
-    "subtitle": "Lua / Löve2D",
-    "description": "In-progress Zelda-like action/adventure RPG."
-  },
-  {
-    "imgSrc": "assets/images/wea.png",
-    "title": "Where's Everybody At?'",
-    "subtitle": "Angular 7 / Firebase / Heroku",
-    "description": "Worked on a team of 3 to create a lightweight web application to create/join current study groups around campus. As this was our final for a course in human computer interaction, we developed this project with an emphasis on user-centered design and iterated on our prototype throughout several rounds of user feedback/testing."
-  },
-  {
-    "imgSrc": "assets/images/warcraft2.png",
-    "title": "Warcraft II Website",
-    "subtitle": "Angular 7 / Node.js / MongoDB",
-    "description": "Quarter-long, team-based project for ECS160: Software Engineering. Features implemented: JWT-based user authentication, real-time messaging system using Socket.io and RxJS, map rendering, file uploads/downloads,friends system, and email verification."
-  },
-  {
-    "imgSrc": "assets/images/newSudoku.png",
-    "title": "Sudoku Puzzle Generator/Solver",
-    "subtitle": "HTML / CSS / JavaScript",
-    "description": "Random sudoku puzzle generator and solver utilizing a simple recursive algorithm. Check it out <a href='https://samrcwaters.github.io/sudoku/'>here</a>."
-  }
-]}
+{
+  "projects": [
+    {
+      "imgSrc": "assets/images/rs_home.png",
+      "title": "RowStream",
+      "subtitle": "React Native / Node.js / TypeScript / ElasticSearch",
+      "description": "Mobile application to track rowing data and remotely collaborate with other rowers"
+    },
+    {
+      "imgSrc": "assets/images/ca.png",
+      "title": "Challonger Approaching",
+      "subtitle": "Angular 8 / Node.js / Challonge API",
+      "description": "Data aggregation web application built to help track long-term tournament results/rankings (primarily intended for Super Smash Bros. Melee). Try it out over <a href='https://challonger-approaching.herokuapp.com/'>here</a>!"
+    },
+    {
+      "imgSrc": "assets/images/PosterLowRes.png",
+      "title": "Senior Design Project: Speech Prep Pal",
+      "subtitle": "Java / Android SDK / Google Cloud Platform APIs",
+      "description": "Worked on a team of 4 (plus 2 Google mentors) to develop an Android application aimed at honing a user’s speaking patterns through machine learning technology. Features include: video recording and playback, script accuracy detection through GCP speech-to-text API and Google’s Diff-Match-Patch API."
+    },
+    {
+      "imgSrc": "assets/images/wea.png",
+      "title": "Where's Everybody At?'",
+      "subtitle": "Angular 7 / Firebase / Heroku",
+      "description": "Worked on a team of 3 to create a lightweight web application to create/join current study groups around campus. As this was our final for a course in human computer interaction, we developed this project with an emphasis on user-centered design and iterated on our prototype throughout several rounds of user feedback/testing."
+    },
+    {
+      "imgSrc": "assets/images/warcraft2.png",
+      "title": "Warcraft II Website",
+      "subtitle": "Angular 7 / Node.js / MongoDB",
+      "description": "Quarter-long, team-based project for ECS160: Software Engineering. Features implemented: JWT-based user authentication, real-time messaging system using Socket.io and RxJS, map rendering, file uploads/downloads,friends system, and email verification."
+    },
+    {
+      "imgSrc": "assets/images/newSudoku.png",
+      "title": "Sudoku Puzzle Generator/Solver",
+      "subtitle": "HTML / CSS / JavaScript",
+      "description": "Random sudoku puzzle generator and solver utilizing a simple recursive algorithm. Check it out <a href='https://samrcwaters.github.io/sudoku/'>here</a>."
+    }
+  ]
+}
